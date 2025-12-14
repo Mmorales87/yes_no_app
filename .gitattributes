@@ -1,0 +1,11 @@
+# Ignore C++ and CMake
+*.cpp linguist-vendored
+*.h linguist-vendored
+CMakeLists.txt linguist-vendored
+
+# Ignorare Ruby or Swift if it is not your main code
+*.rb linguist-vendored
+*.swift linguist-vendored
+
+# Optional: Force Dart
+*.dart linguist-language=Dart
